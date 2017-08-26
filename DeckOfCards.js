@@ -16,7 +16,7 @@ class DeckOfCards {
 
       //tbd -- rand / enum?
 
-      for(var i = 0, i < n, i++){
+      for(var i = 0; i < n; i++){
         this.cards[i] = new Card(color, suit);
       }
 
@@ -33,7 +33,7 @@ class DeckOfCards {
       if (n > num){
         return "You want to take too many cards. " + num + " cards left in the " + this.name + " deck.";
       }else{
-        for(var i = 0, i < n, i++){
+        for(var i = 0; i < n; i++){
         taken_cards.push(this.cards.pop)
         }
       }
