@@ -12,10 +12,10 @@ class Card {
       this.Suit = Suit;
     }
 
-    get Color(){
+    Color(){
       return this.Color;
     }
-    get Suite(){
+    Suite(){
       return this.Suit;
     }
 }

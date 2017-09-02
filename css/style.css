@@ -17,10 +17,11 @@
 .rank {
     padding: 10px 0px 0px 10px;
     font-size: 20px;
-    font-weight: 900;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .color {
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
+    margin-top: -20px;
 }
