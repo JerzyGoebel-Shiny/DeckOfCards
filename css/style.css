@@ -1,6 +1,7 @@
 .card {
     width: 100px;
     height: 150px;
+    cursor: default;
     border: 1px black solid;
     border-radius: 5px;
     box-shadow: 5px 5px 2px grey;

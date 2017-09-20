@@ -27,7 +27,7 @@ function add_card(rank, color){
                           }
 cards_C.innerHTML += "</div>";
 card_id += 1;
-return "Card successfully displayed. HTML card id= " + (card_id - 1);
+return "Card successfully displayed. HTML card id: " + (card_id - 1);
 
 }else{console.log("no such color as " + color);return 0;}
 }else{console.log("no such rank as " + rank);return 0;}
